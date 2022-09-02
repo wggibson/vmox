@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
+        <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>order_type</name>
-        <order>100</order>
+        <order>5</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>Brandon.Vandermark</sys_created_by>
         <sys_created_on>2022-06-14 15:03:10</sys_created_on>
         <sys_id>24577bc61b801910d18fca246b4bcbb8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Order Type</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>item_option_new_24577bc61b801910d18fca246b4bcbb8</sys_update_name>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-27 16:11:14</sys_updated_on>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-07 18:24:07</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

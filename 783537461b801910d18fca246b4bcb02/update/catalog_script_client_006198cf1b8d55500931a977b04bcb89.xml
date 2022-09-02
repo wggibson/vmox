@@ -8,16 +8,19 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:41c7ffc61b801910d18fca246b4bcb0f</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Populate Country - OnLoad</name>
+        <name>Populate Country - onChange</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
 	var user = g_form.getValue('requested_for');
 //}
 
@@ -26,34 +29,34 @@
 	ga.addParam('sysparm_name','getCountry');
 	ga.addParam('sysparm_location', user.location);
 	ga.getXMLAnswer(getCountry);
-//}
 
-function getCountry(){
+function getCountry(response){
 	var answer = response.responseXML.documentElement.getAttribute("answer");
 	alert(answer);
 	if(answer)
 		g_form.setValue('country', answer);
-	else
+	else{
 		g_form.clearValue('country');
+	}
 }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-08-05 17:54:34</sys_created_on>
+        <sys_created_on>2022-08-05 17:55:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4860d4431bcd55500931a977b04bcb35</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Populate Country - OnLoad</sys_name>
+        <sys_id>006198cf1b8d55500931a977b04bcb89</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Populate Country - onChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_script_client_4860d4431bcd55500931a977b04bcb35</sys_update_name>
+        <sys_update_name>catalog_script_client_006198cf1b8d55500931a977b04bcb89</sys_update_name>
         <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-05 23:15:53</sys_updated_on>
+        <sys_updated_on>2022-08-07 19:40:40</sys_updated_on>
         <table/>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <variable_set/>
         <view/>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
-        <catalog_variable>IO:6a46d4501b309990d18fca246b4bcbdd</catalog_variable>
+        <catalog_variable>IO:fdfbbf0e1b801910d18fca246b4bcbe0</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
-        <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-08-05 19:50:16</sys_created_on>
-        <sys_id>62cba4871b0195500931a977b04bcb06</sys_id>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-08-06 03:19:01</sys_created_on>
+        <sys_id>a48296c31b8595500931a977b04bcb10</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>non_standard_device_requested</sys_name>
+        <sys_name>state</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_62cba4871b0195500931a977b04bcb06</sys_update_name>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-08-05 19:50:16</sys_updated_on>
+        <sys_update_name>catalog_ui_policy_action_a48296c31b8595500931a977b04bcb10</sys_update_name>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-06 03:19:01</sys_updated_on>
         <table/>
-        <ui_policy display_value="Device Type Handler">1518a4071b0195500931a977b04bcb2d</ui_policy>
-        <variable>non_standard_device_requested</variable>
+        <ui_policy display_value="If Order Type is Support display multi row text box">9691d6031b8595500931a977b04bcb5c</ui_policy>
+        <variable>state</variable>
         <variable_set/>
-        <visible>true</visible>
+        <visible>false</visible>
     </catalog_ui_policy_action>
 </record_update>

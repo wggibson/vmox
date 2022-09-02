@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
@@ -39,12 +39,12 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter4</name>
-        <order>15</order>
+        <name>commuter_case</name>
+        <order>40</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>Commuter Case</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -65,20 +65,20 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:44:51</sys_created_on>
-        <sys_id>67e0cc521bc01910d18fca246b4bcbba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>formatter4</sys_name>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-08-06 02:31:41</sys_created_on>
+        <sys_id>dd878e0b1b4595500931a977b04bcbaa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Commuter Case</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>item_option_new_67e0cc521bc01910d18fca246b4bcbba</sys_update_name>
+        <sys_update_name>item_option_new_dd878e0b1b4595500931a977b04bcbaa</sys_update_name>
         <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 18:24:39</sys_updated_on>
+        <sys_updated_on>2022-08-07 19:55:45</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>20</type>
+        <type>7</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=67e0cc521bc01910d18fca246b4bcbba"/>
-    <fx_price action="delete_multiple" query="id=67e0cc521bc01910d18fca246b4bcbba"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd878e0b1b4595500931a977b04bcbaa"/>
+    <fx_price action="delete_multiple" query="id=dd878e0b1b4595500931a977b04bcbaa"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>67e0cc521bc01910d18fca246b4bcbba</id>
+        <id>dd878e0b1b4595500931a977b04bcbaa</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:44:51</sys_created_on>
-        <sys_id>72f048921bc01910d18fca246b4bcb9f</sys_id>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-08-06 02:31:41</sys_created_on>
+        <sys_id>45b7ce0b1b4595500931a977b04bcbd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-14 15:44:51</sys_updated_on>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-06 02:31:41</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>67e0cc521bc01910d18fca246b4bcbba</id>
+        <id>dd878e0b1b4595500931a977b04bcbaa</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:44:51</sys_created_on>
-        <sys_id>3af048921bc01910d18fca246b4bcb9e</sys_id>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-08-06 02:31:41</sys_created_on>
+        <sys_id>0db7ce0b1b4595500931a977b04bcbd1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-14 15:44:51</sys_updated_on>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-06 02:31:41</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

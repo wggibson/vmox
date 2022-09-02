@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
+        <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,10 +21,10 @@
         <example_text/>
         <field/>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag/>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -39,12 +39,12 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter</name>
-        <order>600</order>
+        <name>device_type</name>
+        <order>30</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>Device Type</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -61,24 +61,24 @@
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
-        <show_help_on_load>false</show_help_on_load>
+        <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:20:56</sys_created_on>
-        <sys_id>c57b7fca1b801910d18fca246b4bcb6d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>formatter</sys_name>
+        <sys_created_on>2022-06-14 15:16:17</sys_created_on>
+        <sys_id>2f5a7f8a1b801910d18fca246b4bcb22</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Device Type</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>item_option_new_c57b7fca1b801910d18fca246b4bcb6d</sys_update_name>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-14 15:20:56</sys_updated_on>
+        <sys_update_name>item_option_new_2f5a7f8a1b801910d18fca246b4bcb22</sys_update_name>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-07 18:28:01</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>24</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=c57b7fca1b801910d18fca246b4bcb6d"/>
-    <fx_price action="delete_multiple" query="id=c57b7fca1b801910d18fca246b4bcb6d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f5a7f8a1b801910d18fca246b4bcb22"/>
+    <fx_price action="delete_multiple" query="id=2f5a7f8a1b801910d18fca246b4bcb22"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>c57b7fca1b801910d18fca246b4bcb6d</id>
+        <id>2f5a7f8a1b801910d18fca246b4bcb22</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:20:56</sys_created_on>
-        <sys_id>6c8b7f0e1b801910d18fca246b4bcb59</sys_id>
+        <sys_created_on>2022-06-14 15:16:17</sys_created_on>
+        <sys_id>ec7a33ca1b801910d18fca246b4bcb00</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-14 15:20:56</sys_updated_on>
+        <sys_updated_on>2022-06-14 15:16:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>c57b7fca1b801910d18fca246b4bcb6d</id>
+        <id>2f5a7f8a1b801910d18fca246b4bcb22</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-14 15:20:56</sys_created_on>
-        <sys_id>248b7f0e1b801910d18fca246b4bcb59</sys_id>
+        <sys_created_on>2022-06-14 15:16:17</sys_created_on>
+        <sys_id>a47a33ca1b801910d18fca246b4bcb00</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-06-14 15:20:56</sys_updated_on>
+        <sys_updated_on>2022-06-14 15:16:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

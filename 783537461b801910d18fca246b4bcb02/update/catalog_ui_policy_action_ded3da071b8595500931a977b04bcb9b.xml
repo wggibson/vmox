@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
-        <catalog_variable>IO:2f5a7f8a1b801910d18fca246b4bcb22</catalog_variable>
+        <catalog_variable>IO:004c77f61b4d55500931a977b04bcb74</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
-        <order>100</order>
+        <order>5</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
-        <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-06-15 20:49:13</sys_created_on>
-        <sys_id>873016a21b085910d18fca246b4bcb67</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>device_type</sys_name>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-08-06 03:24:56</sys_created_on>
+        <sys_id>ded3da071b8595500931a977b04bcb9b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>mobile_number</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_873016a21b085910d18fca246b4bcb67</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_ded3da071b8595500931a977b04bcb9b</sys_update_name>
         <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-06 01:37:36</sys_updated_on>
+        <sys_updated_on>2022-08-06 03:39:04</sys_updated_on>
         <table/>
         <ui_policy display_value="Setup Form">a9ff8e621b085910d18fca246b4bcbf1</ui_policy>
-        <variable>device_type</variable>
+        <variable>mobile_number</variable>
         <variable_set/>
         <visible>false</visible>
     </catalog_ui_policy_action>
