@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
+        <catalog_variable>IO:2d245e6a1b0915500931a977b04bcbe8</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-04 14:12:29</sys_created_on>
+        <sys_id>70d49aea1b0915500931a977b04bcb6a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>country_code</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_70d49aea1b0915500931a977b04bcb6a</sys_update_name>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-04 23:35:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Upgrade Fields">c6edff8e1b801910d18fca246b4bcbe5</ui_policy>
+        <variable>country_code</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

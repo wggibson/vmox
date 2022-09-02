@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cslb_vmox_integr.getLocationData</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getLocationData</name>
+        <script><![CDATA[var getLocationData = Class.create();
+getLocationData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getCountryCode: function(){
+		var terrRecordSysId = this.getParameter('sysparm_territory_sys_id');
+		var terrCode = new GlideRecord('sys_phone_territory');
+		terrCode.get('sys_id', terrRecordSysId);
+		return terrCode.ccc.toString();
+		
+	},
+
+    getLocationData: function() {
+        var vmoxObj = {
+            street: "",
+            city: "",
+            state: "",
+            zip: "",
+            country: "dd38b7111b121100763d91eebc0713f5" //United States of America - core_country
+        };
+
+        var location = this.getParameter('sysparm_loc');
+
+        if (location) {
+            var locGR = new GlideRecord('cmn_location');
+            locGR.addQuery('sys_id', location);
+            locGR.query();
+
+
+
+            if (locGR.next()) {
+                if (locGR.getValue('street'))
+                    vmoxObj.street = locGR.street.toString();
+                if (locGR.getValue('city'))
+                    vmoxObj.city = locGR.city.toString();
+                if (locGR.getValue('state'))
+                    vmoxObj.state = locGR.state.toString();
+                if (locGR.getValue('zip'))
+                    vmoxObj.zip = locGR.zip.toString();
+                if (locGR.getValue('country')) {
+                    var countryGR = new GlideRecord('core_country');
+                    countryGR.addQuery('name', locGR.country);
+                    countryGR.query();
+                    if (countryGR.next())
+                        vmoxObj.country = countryGR.getUniqueValue();
+                }
+            }
+        }
+        var objString = JSON.stringify(vmoxObj);
+
+        return objString;
+    },
+
+    type: 'getLocationData'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-20 07:00:24</sys_created_on>
+        <sys_id>1dcfd7291bf091100931a977b04bcb4a</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>getLocationData</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>sys_script_include_1dcfd7291bf091100931a977b04bcb4a</sys_update_name>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-08-04 20:04:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
