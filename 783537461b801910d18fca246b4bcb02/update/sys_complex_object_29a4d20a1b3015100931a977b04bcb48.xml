@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD65a4d20a8e301510f3421d959894bc48</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>783537461b801910d18fca246b4bcb02</scope_name>
+        <serialized_content>{"FlowDesigner:FD65a4d20a8e301510f3421d959894bc48":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD65a4d20a8e301510f3421d959894bc48.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Locations\",\"mandatory\":\"true\",\"child_name\":\"location\",\"uiUniqueId\":\"8d77183d-97f6-45bd-899a-d3b123262a76\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD65a4d20a8e301510f3421d959894bc48\",\"child_label\":\"location\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"67178613-14ac-4c11-85ac-ab99ea8bc84a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-21 14:38:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29a4d20a1b3015100931a977b04bcb48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD65a4d20a8e301510f3421d959894bc48</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>sys_complex_object_29a4d20a1b3015100931a977b04bcb48</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-07-21 14:39:49</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

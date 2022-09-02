@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Carrier">283b3bca1b801910d18fca246b4bcb0a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-06-14 15:20:14</sys_created_on>
+        <sys_id>374bfbca1b801910d18fca246b4bcb37</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Deutsche Telekon</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>question_choice_374bfbca1b801910d18fca246b4bcb37</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-04 13:37:26</sys_updated_on>
+        <text>Deutsche Telekon</text>
+        <value>telekon</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=374bfbca1b801910d18fca246b4bcb37"/>
+</record_update>

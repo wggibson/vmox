@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>process_sync_inbound_queue</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-12 20:29:08</sys_created_on>
+        <sys_id>d89ec1db1be89590d18fca246b4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process_sync_inbound_queue</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>sys_ui_view_d89ec1db1be89590d18fca246b4bcb18</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-07-12 20:29:08</sys_updated_on>
+        <title>Process_sync_inbound_queue</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
+        <catalog_variable>IO:9a29cf521bb055100931a977b04bcb26</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-22 13:15:45</sys_created_on>
+        <sys_id>2b3bcb161bb055100931a977b04bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accessories</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2b3bcb161bb055100931a977b04bcb11</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-07-22 13:15:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Accessories">b92bcbd21bb055100931a977b04bcbdf</ui_policy>
+        <variable>accessories</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

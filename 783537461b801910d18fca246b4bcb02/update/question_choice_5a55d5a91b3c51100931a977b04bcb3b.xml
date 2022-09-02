@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>250</order>
+        <published_ref/>
+        <question display_value="Order Type">24577bc61b801910d18fca246b4bcbb8</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-19 20:45:24</sys_created_on>
+        <sys_id>5a55d5a91b3c51100931a977b04bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accessory Only</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>question_choice_5a55d5a91b3c51100931a977b04bcb3b</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-07-19 20:45:24</sys_updated_on>
+        <text>Accessory Only</text>
+        <value>accessory</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5a55d5a91b3c51100931a977b04bcb3b"/>
+</record_update>
