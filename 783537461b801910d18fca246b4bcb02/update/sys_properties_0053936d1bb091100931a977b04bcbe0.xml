@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Enter a list of supported locations, separated by a semi-colon ( ; ). Note: Do not add spaces to the beginning or end of the text. This will be the sys_id of the country on the core_country</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_cslb_vmox_integr.supported_locations</name>
+        <read_roles>x_cslb_vmox_integr.vmox_user</read_roles>
+        <suffix>supported_locations</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-07-20 06:04:40</sys_created_on>
+        <sys_id>0053936d1bb091100931a977b04bcbe0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_cslb_vmox_integr.supported_locations</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>sys_properties_0053936d1bb091100931a977b04bcbe0</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-05 16:00:43</sys_updated_on>
+        <type>string</type>
+        <value>dd38b7111b121100763d91eebc0713f5;0538b7111b121100763d91eebc0713f2;4938b7111b121100763d91eebc0713f0;cd38b7111b121100763d91eebc0713f1</value>
+        <write_roles>x_cslb_vmox_integr.vmox_user</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=0053936d1bb091100931a977b04bcbe0"/>
+</record_update>
