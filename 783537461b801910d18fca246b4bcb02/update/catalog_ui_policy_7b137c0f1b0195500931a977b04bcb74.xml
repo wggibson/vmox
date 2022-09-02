@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:24577bc61b801910d18fca246b4bcbb8INupgrade,accessory,international^IO:322c7f0e1b801910d18fca246b4bcb54ISNOTEMPTY^IO:2f5a7f8a1b801910d18fca246b4bcb22INsmartphone_black,smartphone_white,tablet^EQ</catalog_conditions>
+        <catalog_conditions>IO:24577bc61b801910d18fca246b4bcbb8INupgrade,accessory,international^IO:322c7f0e1b801910d18fca246b4bcb54ISNOTEMPTY^EQ</catalog_conditions>
         <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
         <conditions/>
         <description/>
@@ -33,15 +33,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7b137c0f1b0195500931a977b04bcb74</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Display Mobile Number | Upgrade, Accessory, International</sys_name>
         <sys_overrides/>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>catalog_ui_policy_7b137c0f1b0195500931a977b04bcb74</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-08 09:48:14</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-09 21:13:56</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

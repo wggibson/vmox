@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name;ccc</attributes>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -21,30 +21,30 @@
         <example_text/>
         <field/>
         <global>false</global>
-        <help_tag>More information</help_tag>
-        <help_text/>
+        <help_tag/>
+        <help_text>Select North America if you are looking for United States of America</help_text>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>name,ccc</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_phone_territory</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>ccc</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter5</name>
-        <order>100</order>
+        <name>country_code</name>
+        <order>21</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>Country Code</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -60,29 +60,29 @@
         <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
-        <show_help_on_load>false</show_help_on_load>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>1bb776271b4119500931a977b04bcb44</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>formatter5</sys_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-04 14:11:11</sys_created_on>
+        <sys_id>2d245e6a1b0915500931a977b04bcbe8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Country Code</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>item_option_new_1bb776271b4119500931a977b04bcb44</sys_update_name>
+        <sys_update_name>item_option_new_2d245e6a1b0915500931a977b04bcbe8</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-08-09 20:04:52</sys_updated_on>
+        <sys_updated_on>2022-08-09 22:37:02</sys_updated_on>
         <table/>
-        <tooltip/>
-        <type>24</type>
+        <tooltip>Select North America if you are looking for United States of America</tooltip>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1bb776271b4119500931a977b04bcb44"/>
-    <fx_price action="delete_multiple" query="id=1bb776271b4119500931a977b04bcb44"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d245e6a1b0915500931a977b04bcbe8"/>
+    <fx_price action="delete_multiple" query="id=2d245e6a1b0915500931a977b04bcbe8"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>1bb776271b4119500931a977b04bcb44</id>
+        <id>2d245e6a1b0915500931a977b04bcbe8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>22c77ee31b4119500931a977b04bcbf9</sys_id>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-04 14:11:11</sys_created_on>
+        <sys_id>80a496aa1b0915500931a977b04bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 19:18:44</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-04 14:11:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>1bb776271b4119500931a977b04bcb44</id>
+        <id>2d245e6a1b0915500931a977b04bcbe8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>62c77ee31b4119500931a977b04bcbf8</sys_id>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-04 14:11:11</sys_created_on>
+        <sys_id>c0a496aa1b0915500931a977b04bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 19:18:44</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-04 14:11:11</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

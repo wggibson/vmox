@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
-        <catalog_variable>IO:004c77f61b4d55500931a977b04bcb74</catalog_variable>
+        <catalog_variable>IO:1d0aef6e1b4d15500931a977b04bcb31</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-06 03:19:42</sys_created_on>
-        <sys_id>0aa21ac31b8595500931a977b04bcbc9</sys_id>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-09 21:39:31</sys_created_on>
+        <sys_id>492bed901b5dd550d18fca246b4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>mobile_number</sys_name>
+        <sys_name>apple_magic_keyboard_ipad_pro_12_9_inch_2021_5th_gen</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_0aa21ac31b8595500931a977b04bcbc9</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-06 03:19:42</sys_updated_on>
+        <sys_update_name>catalog_ui_policy_action_492bed901b5dd550d18fca246b4bcbae</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-09 21:39:31</sys_updated_on>
         <table/>
-        <ui_policy display_value="If Order Type is Support display multi row text box">9691d6031b8595500931a977b04bcb5c</ui_policy>
-        <variable>mobile_number</variable>
+        <ui_policy display_value="Accessory Management - Tablets - UK">9a3215dc1bd9d550d18fca246b4bcb06</ui_policy>
+        <variable>apple_magic_keyboard_ipad_pro_12_9_inch_2021_5th_gen</variable>
         <variable_set/>
-        <visible>false</visible>
+        <visible>true</visible>
     </catalog_ui_policy_action>
 </record_update>

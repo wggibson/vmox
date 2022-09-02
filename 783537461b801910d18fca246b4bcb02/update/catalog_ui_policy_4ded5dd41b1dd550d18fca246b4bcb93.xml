@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:322c7f0e1b801910d18fca246b4bcb54ISNOTEMPTY^IO:24577bc61b801910d18fca246b4bcbb8INnew,upgrade,accessory^EQ</catalog_conditions>
+        <catalog_conditions>IO:78d715d01b1dd550d18fca246b4bcb6f=true^EQ</catalog_conditions>
         <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
         <conditions/>
         <description/>
@@ -16,7 +16,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>20</order>
+        <order>100</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -26,22 +26,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Show Device Type New | Upgrade | Accessory</short_description>
+        <short_description>Show Carrier Business Justification on check</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 18:52:59</sys_created_on>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-08-09 20:43:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>68c1beaf1b0119500931a977b04bcba8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Show Device Type New | Upgrade | Accessory</sys_name>
+        <sys_id>4ded5dd41b1dd550d18fca246b4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Carrier Business Justification on check</sys_name>
         <sys_overrides/>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_ui_policy_68c1beaf1b0119500931a977b04bcba8</sys_update_name>
+        <sys_update_name>catalog_ui_policy_4ded5dd41b1dd550d18fca246b4bcb93</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-08-09 19:48:08</sys_updated_on>
+        <sys_updated_on>2022-08-09 20:43:06</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

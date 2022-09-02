@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
@@ -39,8 +39,8 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter5</name>
-        <order>100</order>
+        <name>formatter2</name>
+        <order>1600</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -65,20 +65,20 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>1bb776271b4119500931a977b04bcb44</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>formatter5</sys_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-06-14 15:27:27</sys_created_on>
+        <sys_id>c1fc738e1b801910d18fca246b4bcb14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>formatter2</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>item_option_new_1bb776271b4119500931a977b04bcb44</sys_update_name>
+        <sys_update_name>item_option_new_c1fc738e1b801910d18fca246b4bcb14</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-08-09 20:04:52</sys_updated_on>
+        <sys_updated_on>2022-08-09 14:01:00</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>24</type>
+        <type>20</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1bb776271b4119500931a977b04bcb44"/>
-    <fx_price action="delete_multiple" query="id=1bb776271b4119500931a977b04bcb44"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1fc738e1b801910d18fca246b4bcb14"/>
+    <fx_price action="delete_multiple" query="id=c1fc738e1b801910d18fca246b4bcb14"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>1bb776271b4119500931a977b04bcb44</id>
+        <id>c1fc738e1b801910d18fca246b4bcb14</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>22c77ee31b4119500931a977b04bcbf9</sys_id>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-06-14 15:27:27</sys_created_on>
+        <sys_id>940d738e1b801910d18fca246b4bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 19:18:44</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-06-14 15:27:27</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>1bb776271b4119500931a977b04bcb44</id>
+        <id>c1fc738e1b801910d18fca246b4bcb14</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>eugene.sikorski</sys_created_by>
-        <sys_created_on>2022-08-07 19:18:44</sys_created_on>
-        <sys_id>62c77ee31b4119500931a977b04bcbf8</sys_id>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-06-14 15:27:27</sys_created_on>
+        <sys_id>5c0d738e1b801910d18fca246b4bcb49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 19:18:44</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-06-14 15:27:27</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>apple_magic_keyboard_ipad_pro_12_9_inch_2021_5th_gen</name>
-        <order>593</order>
+        <order>74</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>eugene.sikorski</sys_created_by>
         <sys_created_on>2022-08-04 20:24:43</sys_created_on>
         <sys_id>1d0aef6e1b4d15500931a977b04bcb31</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Apple® Magic Keyboard - iPad Pro 12.9-inch (2021) 5th Gen</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>item_option_new_1d0aef6e1b4d15500931a977b04bcb31</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-06 03:17:11</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-09 20:58:36</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>

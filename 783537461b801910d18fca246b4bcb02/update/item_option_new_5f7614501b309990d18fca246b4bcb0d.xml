@@ -39,8 +39,8 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>business_justification</name>
-        <order>34</order>
+        <name>business_justification_device</name>
+        <order>32</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -68,14 +68,14 @@
         <sys_created_by>Brandon.Vandermark</sys_created_by>
         <sys_created_on>2022-07-15 18:58:23</sys_created_on>
         <sys_id>5f7614501b309990d18fca246b4bcb0d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Business Justification</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>item_option_new_5f7614501b309990d18fca246b4bcb0d</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 20:01:24</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-09 20:45:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

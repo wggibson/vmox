@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <category/>
@@ -68,14 +68,14 @@
         <sys_created_by>Brandon.Vandermark</sys_created_by>
         <sys_created_on>2022-06-14 15:13:44</sys_created_on>
         <sys_id>cfd93f4a1b801910d18fca246b4bcb26</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>left_side</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>item_option_new_cfd93f4a1b801910d18fca246b4bcb26</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-07 20:22:51</sys_updated_on>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-09 14:11:16</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>
