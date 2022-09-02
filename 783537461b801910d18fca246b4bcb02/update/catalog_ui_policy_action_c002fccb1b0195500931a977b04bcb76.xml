@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
+        <catalog_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</catalog_item>
         <catalog_variable>IO:314cb34e1b801910d18fca246b4bcba3</catalog_variable>
-        <cleared>true</cleared>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
-        <sys_created_on>2022-07-22 13:21:23</sys_created_on>
-        <sys_id>0c9ccb961bb055100931a977b04bcbbb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-08-05 20:17:27</sys_created_on>
+        <sys_id>c002fccb1b0195500931a977b04bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>phone_number</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_0c9ccb961bb055100931a977b04bcbbb</sys_update_name>
-        <sys_updated_by>eugene.sikorski</sys_updated_by>
-        <sys_updated_on>2022-08-04 22:00:38</sys_updated_on>
+        <sys_update_name>catalog_ui_policy_action_c002fccb1b0195500931a977b04bcb76</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-08-05 20:17:27</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show Accessories">b92bcbd21bb055100931a977b04bcbdf</ui_policy>
+        <ui_policy display_value="Shipping Number">5cc1780b1b0195500931a977b04bcbd6</ui_policy>
         <variable>phone_number</variable>
         <variable_set/>
         <visible>true</visible>
