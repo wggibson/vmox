@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
+        <cat_item display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</cat_item>
         <cat_variable>IO:2d245e6a1b0915500931a977b04bcbe8</cat_variable>
         <condition/>
         <description/>

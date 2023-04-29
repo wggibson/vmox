@@ -20,7 +20,7 @@
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-05 20:32:48</sys_updated_on>
         <table/>
-        <ui_policy display_value="International Fields">7865388f1b0195500931a977b04bcb7f</ui_policy>
+        <ui_policy display_value="Order Type - Show International Fields">7865388f1b0195500931a977b04bcb7f</ui_policy>
         <variable>destination_countries</variable>
         <variable_set/>
         <visible>true</visible>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Brandon.Vandermark</sys_created_by>
+        <sys_created_on>2022-06-14 14:54:44</sys_created_on>
+        <sys_id>b48573861b801910d18fca246b4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit a Mobile VMox Request</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b48573861b801910d18fca246b4bcb8e</sys_update_name>
+        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
+        <sys_updated_on>2022-06-14 14:54:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="VMox Integration">783537461b801910d18fca246b4bcb02</application>
+        <file_path/>
+        <instance_id>0600e04fdbc505101b813feb68961966</instance_id>
+        <instance_name>dev121898</instance_name>
+        <name>sc_cat_item_catalog_b48573861b801910d18fca246b4bcb8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit a Mobile VMox Request">7d453b461b801910d18fca246b4bcbdf</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Brandon.Vandermark</sys_created_by><sys_created_on>2022-06-14 14:54:44</sys_created_on><sys_id>b48573861b801910d18fca246b4bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Submit a Mobile VMox Request</sys_name><sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package><sys_policy/><sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope><sys_update_name>sc_cat_item_catalog_b48573861b801910d18fca246b4bcb8e</sys_update_name><sys_updated_by>Brandon.Vandermark</sys_updated_by><sys_updated_on>2022-06-14 14:54:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1768385141</payload_hash>
+        <record_name>Service Catalog.Submit a Mobile VMox Request</record_name>
+        <reverted_from/>
+        <source>5c734bb397611110ba0d7e121153af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 11:19:47</sys_created_on>
+        <sys_id>5c838fb397611110ba0d7e121153af9c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>182fdedab460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:19:58</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b08573865d80191060d5b20437f60e91</update_guid>
+        <update_guid_history>b08573865d80191060d5b20437f60e91:1768385141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Submit a Mobile VMox Request">3ea5877797611110ba0d7e121153af59</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eugene.sikorski</sys_created_by>
+        <sys_created_on>2022-09-02 11:29:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>286fe378450b4e5693c2947a67124224</sys_id>
+        <sys_metadata>b48573861b801910d18fca246b4bcb8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit a Mobile VMox Request</sys_name>
+        <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
+        <sys_parent display_value="Submit a Mobile Request">7d453b461b801910d18fca246b4bcbdf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
+        <sys_scope_delete display_value="">3ba8e6097f9749f18d858646ef8931b9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b48573861b801910d18fca246b4bcb8e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b48573861b801910d18fca246b4bcb8e">5c838fb397611110ba0d7e121153af9c</sys_update_version>
+        <sys_updated_by>eugene.sikorski</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:29:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

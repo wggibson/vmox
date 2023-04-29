@@ -20,7 +20,7 @@
         <sys_updated_by>eugene.sikorski</sys_updated_by>
         <sys_updated_on>2022-08-08 09:49:38</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show Device Type IF Country is NOT Empty">68c1beaf1b0119500931a977b04bcba8</ui_policy>
+        <ui_policy display_value="Show Device Type New | Upgrade | Accessory">68c1beaf1b0119500931a977b04bcba8</ui_policy>
         <variable>device_type</variable>
         <variable_set/>
         <visible>true</visible>

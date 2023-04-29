@@ -41,6 +41,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>please_describe_your_support_needs</name>
         <order>2000</order>
+        <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>

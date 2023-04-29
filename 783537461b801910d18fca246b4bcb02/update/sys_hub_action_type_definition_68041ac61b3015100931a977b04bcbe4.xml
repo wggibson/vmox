@@ -2,6 +2,7 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
@@ -18,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>Brandon.Vandermark</sys_created_by>
@@ -25,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68041ac61b3015100931a977b04bcbe4</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Check if Supported Location</sys_name>
         <sys_overrides/>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_68041ac61b3015100931a977b04bcbe4</sys_update_name>
-        <sys_updated_by>Brandon.Vandermark</sys_updated_by>
-        <sys_updated_on>2022-08-10 16:48:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 11:19:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -82,6 +84,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Check if Supported Location">68041ac61b3015100931a977b04bcbe4</action>
         <cid>ff7933a6-fdd4-4b5c-8df7-e5884282f539</cid>
+        <error_handling_type/>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -173,6 +176,8 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a9a4920a1b3015100931a977b04bcba6^id=a9a4920a1b3015100931a977b04bcba6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a9a4920a1b3015100931a977b04bcba6"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=a9a4920a1b3015100931a977b04bcba6^sys_idNOT IN3b123dac1b591950d18fca246b4bcbab"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -205,6 +210,7 @@
         <element>country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -251,6 +257,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -287,6 +294,7 @@
         <element>supported</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -333,10 +341,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a9a4920a1b3015100931a977b04bcba6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a9a4920a1b3015100931a977b04bcba6"/>
     <sys_hub_action_input action="delete_multiple" query="model=68041ac61b3015100931a977b04bcbe4^sys_idNOT IN0dc0f16c1b591950d18fca246b4bcb3c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -369,6 +380,7 @@
         <element>country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -415,10 +427,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0dc0f16c1b591950d18fca246b4bcb3c"/>
     <sys_hub_action_output action="delete_multiple" query="model=68041ac61b3015100931a977b04bcbe4^sys_idNOT IN3eb175ac1b591950d18fca246b4bcbf6"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -452,6 +466,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -499,10 +514,15 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3eb175ac1b591950d18fca246b4bcbf6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3eb175ac1b591950d18fca246b4bcbf6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=68041ac61b3015100931a977b04bcbe4"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=68041ac61b3015100931a977b04bcbe4"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_68041ac61b3015100931a977b04bcbe4^sys_idNOT IN4dc0b56c1b591950d18fca246b4bcb30"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>country</element>
@@ -517,16 +537,17 @@
         <sys_created_on>2022-08-10 16:42:22</sys_created_on>
         <sys_id>4dc0b56c1b591950d18fca246b4bcb30</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Country</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_68041ac61b3015100931a977b04bcbe4_country_en</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-10 16:42:22</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_68041ac61b3015100931a977b04bcbe4"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_68041ac61b3015100931a977b04bcbe4^sys_idNOT IN7ab175ac1b591950d18fca246b4bcbfc"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>supported</element>
@@ -541,16 +562,17 @@
         <sys_created_on>2022-08-10 16:46:35</sys_created_on>
         <sys_id>7ab175ac1b591950d18fca246b4bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Supported</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_68041ac61b3015100931a977b04bcbe4_supported_en</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-10 16:46:35</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_68041ac61b3015100931a977b04bcbe4"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=68041ac61b3015100931a977b04bcbe4^sys_idNOT INa3e41a0a1b3015100931a977b04bcbb7"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Check if Supported Location">68041ac61b3015100931a977b04bcbe4</action_id>
@@ -570,6 +592,7 @@
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
@@ -648,6 +671,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Check if Supported Location">57e41a0a1b3015100931a977b04bcb54</action>
         <cid>ff7933a6-fdd4-4b5c-8df7-e5884282f539</cid>
+        <error_handling_type/>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -739,6 +763,8 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1be41a0a1b3015100931a977b04bcb57^id=1be41a0a1b3015100931a977b04bcb57"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1be41a0a1b3015100931a977b04bcb57"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=1be41a0a1b3015100931a977b04bcb57^sys_idNOT INc532bdac1b591950d18fca246b4bcbdb"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -771,6 +797,7 @@
         <element>country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -817,6 +844,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -853,6 +881,7 @@
         <element>supported</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -899,10 +928,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1be41a0a1b3015100931a977b04bcb57"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1be41a0a1b3015100931a977b04bcb57"/>
     <sys_hub_action_input action="delete_multiple" query="model=57e41a0a1b3015100931a977b04bcb54^sys_idNOT IN4532bdac1b591950d18fca246b4bcbcc"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -935,6 +967,7 @@
         <element>country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -981,10 +1014,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4532bdac1b591950d18fca246b4bcbcc"/>
     <sys_hub_action_output action="delete_multiple" query="model=57e41a0a1b3015100931a977b04bcb54^sys_idNOT INc532bdac1b591950d18fca246b4bcbf9"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1018,6 +1053,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1065,10 +1101,15 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c532bdac1b591950d18fca246b4bcbf9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c532bdac1b591950d18fca246b4bcbf9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=57e41a0a1b3015100931a977b04bcb54"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=57e41a0a1b3015100931a977b04bcb54"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_57e41a0a1b3015100931a977b04bcb54^sys_idNOT IN0132bdac1b591950d18fca246b4bcbd6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>country</element>
@@ -1083,16 +1124,17 @@
         <sys_created_on>2022-08-10 16:48:38</sys_created_on>
         <sys_id>0132bdac1b591950d18fca246b4bcbd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Country</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_57e41a0a1b3015100931a977b04bcb54_country_en</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-10 16:48:38</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_57e41a0a1b3015100931a977b04bcb54"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_57e41a0a1b3015100931a977b04bcb54^sys_idNOT IN0532bdac1b591950d18fca246b4bcbff"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>supported</element>
@@ -1107,18 +1149,20 @@
         <sys_created_on>2022-08-10 16:48:38</sys_created_on>
         <sys_id>0532bdac1b591950d18fca246b4bcbff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Supported</sys_name>
         <sys_package display_value="VMox Integration" source="x_cslb_vmox_integr">783537461b801910d18fca246b4bcb02</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMox Integration">783537461b801910d18fca246b4bcb02</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_57e41a0a1b3015100931a977b04bcb54_supported_en</sys_update_name>
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-10 16:48:38</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_type_definition action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_57e41a0a1b3015100931a977b04bcb54"/>
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>68041ac61b3015100931a977b04bcbe4</sys_id>
         <latest_snapshot>57e41a0a1b3015100931a977b04bcb54</latest_snapshot>
+        <compiler_build/>
     </sys_hub_action_type_definition>
 </record_update>

@@ -20,7 +20,7 @@
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-05 20:26:11</sys_updated_on>
         <table/>
-        <ui_policy display_value="Mobile Number | Upgrade, Accessory, International">7b137c0f1b0195500931a977b04bcb74</ui_policy>
+        <ui_policy display_value="Display Mobile Number | Upgrade, Accessory, International">7b137c0f1b0195500931a977b04bcb74</ui_policy>
         <variable>mobile_number</variable>
         <variable_set/>
         <visible>true</visible>

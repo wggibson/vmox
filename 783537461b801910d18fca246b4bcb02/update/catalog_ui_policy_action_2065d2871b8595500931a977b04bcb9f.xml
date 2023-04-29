@@ -20,7 +20,7 @@
         <sys_updated_by>eugene.sikorski</sys_updated_by>
         <sys_updated_on>2022-08-07 20:40:01</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show Country If Order Type is New Device | Device Uprade | Accessory Only">6735de471b8595500931a977b04bcb01</ui_policy>
+        <ui_policy display_value="Show Country If Order Type is New Device | Device Uprade | Accessory Only | international">6735de471b8595500931a977b04bcb01</ui_policy>
         <variable>country</variable>
         <variable_set/>
         <visible>true</visible>

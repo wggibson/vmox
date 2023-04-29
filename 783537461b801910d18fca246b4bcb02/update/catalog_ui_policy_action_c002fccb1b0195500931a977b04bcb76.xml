@@ -20,7 +20,7 @@
         <sys_updated_by>Brandon.Vandermark</sys_updated_by>
         <sys_updated_on>2022-08-05 20:17:27</sys_updated_on>
         <table/>
-        <ui_policy display_value="Shipping Number">5cc1780b1b0195500931a977b04bcbd6</ui_policy>
+        <ui_policy display_value="Display Shipping Number">5cc1780b1b0195500931a977b04bcbd6</ui_policy>
         <variable>phone_number</variable>
         <variable_set/>
         <visible>true</visible>

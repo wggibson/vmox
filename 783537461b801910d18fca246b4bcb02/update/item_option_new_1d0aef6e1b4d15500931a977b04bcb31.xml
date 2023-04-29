@@ -41,6 +41,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>apple_magic_keyboard_ipad_pro_12_9_inch_2021_5th_gen</name>
         <order>74</order>
+        <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
